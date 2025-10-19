@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 6992710818774402483}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.172, y: -0.322, z: 0}
+  m_LocalPosition: {x: 0.172, y: -0.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: -5143140723751614844}
   m_Layer: 8
   m_Name: Bronzo (Player)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,7 +115,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 634268021
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: -7291863580970782743, guid: ed9e54c2c7946482ab4fe6825108d2ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -262,6 +262,7 @@ MonoBehaviour:
   deathKick: {x: 10, y: 20}
   bullet: {fileID: 8275776173450622364, guid: 95e670359a16a43ddb346694c278e436, type: 3}
   gun: {fileID: 1926505226004467716}
+  isFacingRight: 1
 --- !u!61 &-5143140723751614844
 BoxCollider2D:
   m_ObjectHideFlags: 0
